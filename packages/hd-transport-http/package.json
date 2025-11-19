@@ -1,0 +1,32 @@
+{
+  "name": "@ukeyfe/hd-transport-http",
+  "version": "1.1.14",
+  "description": "hardware http transport",
+  "author": "UKey",
+  "homepage": "https://github.com/bestyourwallet/hardware-js-sdk#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestyourwallet/hardware-js-sdk.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "rimraf dist && rollup -c ../../build/rollup.config.js -w",
+    "build": "rimraf dist && rollup -c ../../build/rollup.config.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "bugs": {
+    "url": "https://github.com/bestyourwallet/hardware-js-sdk/issues"
+  },
+  "dependencies": {
+    "@ukeyfe/hd-shared": "1.1.14",
+    "@ukeyfe/hd-transport": "1.1.14",
+    "axios": "1.12.2",
+    "secure-json-parse": "^4.0.0"
+  }
+}

@@ -1,0 +1,22 @@
+import { ERRORS, HardwareErrorCode } from '@ukeyfe/hd-shared';
+import { UI_REQUEST } from '../constants/ui-request';
+import { BaseMethod } from './BaseMethod';
+
+export default class GetFeatures extends BaseMethod {
+  init() {
+    this.allowDeviceMode = [
+      ...this.allowDeviceMode,
+      UI_REQUEST.NOT_INITIALIZE,
+      UI_REQUEST.BOOTLOADER,
+    ];
+    this.useDevicePassphraseState = false;
+    this.skipForceUpdateCheck = true;
+  }
+
+  run() {
+    if (this.payload?.detectBootloaderDevice && this.device.features?.bootloader_mode) {
+      return Promise.reject(ERRORS.TypedError(HardwareErrorCode.DeviceDetectInBootloaderMode));
+    }
+    return Promise.resolve(this.device.features);
+  }
+}

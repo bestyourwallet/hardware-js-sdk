@@ -1,0 +1,12 @@
+
+# Run tests
+yarn test
+
+# Run check versions
+yarn check-versions
+
+# Run lint:fix
+yarn lint:staged
+
+# Add files modified by lint:fix
+git diff --name-only -z | xargs git add

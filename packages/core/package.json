@@ -1,0 +1,49 @@
+{
+  "name": "@ukeyfe/hd-core",
+  "version": "1.1.14",
+  "description": "Core processes and APIs for communicating with OneKey hardware devices.",
+  "author": "UKey",
+  "homepage": "https://github.com/bestyourwallet/hardware-js-sdk#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestyourwallet/hardware-js-sdk.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "rimraf dist && rollup -c ../../build/rollup.config.js -w",
+    "build": "rimraf dist && rollup -c ../../build/rollup.config.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/bestyourwallet/hardware-js-sdk/issues"
+  },
+  "dependencies": {
+    "@ukeyfe/hd-shared": "1.1.14",
+    "@ukeyfe/hd-transport": "1.1.14",
+    "axios": "1.12.2",
+    "bignumber.js": "^9.0.2",
+    "bytebuffer": "^5.0.1",
+    "jszip": "^3.10.1",
+    "parse-uri": "^1.0.7",
+    "semver": "^7.3.7"
+  },
+  "peerDependencies": {
+    "@noble/hashes": "^1.1.3",
+    "ripple-keypairs": "^1.3.1"
+  },
+  "devDependencies": {
+    "@noble/hashes": "^1.1.3",
+    "@types/parse-uri": "^1.0.0",
+    "@types/semver": "^7.3.9",
+    "@types/w3c-web-usb": "^1.0.10",
+    "@types/web-bluetooth": "^0.0.21",
+    "ripple-keypairs": "^1.3.1"
+  }
+}

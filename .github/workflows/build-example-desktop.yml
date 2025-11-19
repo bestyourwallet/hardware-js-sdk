@@ -1,0 +1,16 @@
+name: Build Example Desktop (All Platforms)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-mac:
+    uses: ./.github/workflows/build-example-desktop-mac.yml
+    secrets: inherit
+
+  build-win:
+    uses: ./.github/workflows/build-example-desktop-win.yml
+    secrets: inherit
