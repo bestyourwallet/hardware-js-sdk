@@ -260,7 +260,7 @@ export const HardwareErrorCode = {
   NewFirmwareUnRelease: 412,
 
   /**
-   * use OneKey desktop client to update the firmware
+   * use ukey desktop client to update the firmware
    * because need copy resource file to Touch
    */
   UseDesktopToUpdateFirmware: 413,
@@ -523,7 +523,7 @@ export const HardwareErrorCodeMessage: HardwareErrorCodeMessageMapping = {
   [HardwareErrorCode.NewFirmwareUnRelease]: 'new firmware has not been released yet',
   [HardwareErrorCode.NewFirmwareForceUpdate]: 'new firmware has been released, please update',
   [HardwareErrorCode.UseDesktopToUpdateFirmware]:
-    'Please use OneKey desktop client to update the firmware',
+    'Please use ukey desktop client to update the firmware',
   [HardwareErrorCode.DeviceNotSupportMethod]: 'Device not support this method',
   [HardwareErrorCode.ForbiddenKeyPath]: 'Forbidden key path',
   [HardwareErrorCode.RepeatUnlocking]: 'Repeat unlocking',

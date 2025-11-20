@@ -6,7 +6,7 @@ const config: {
 } = {
   iframeName: 'onekey-iframe',
   hostName: 'onekey-host',
-  channel: 'onekey-js-sdk',
+  channel: 'ukey-js-sdk',
   scope: '$hardware_sdk',
 };
 

@@ -1,11 +1,11 @@
-# OneKey Hardware Emulator Transport
+# ukey Hardware Emulator Transport
 
-This package provides HTTP-based transport for connecting to OneKey hardware emulator.
+This package provides HTTP-based transport for connecting to ukey hardware emulator.
 
 ## Features
 
 - HTTP-based communication with emulator server
-- Compatible with OneKey Connect SDK
+- Compatible with ukey Connect SDK
 - Support for switchTransport functionality
 - Default emulator server URL: `http://localhost:21333`
 
@@ -34,7 +34,7 @@ await transport.init(logger);
 await transport.configure(signedData);
 ```
 
-### With OneKey Connect SDK
+### With ukey Connect SDK
 
 ```javascript
 import HardwareSDK from '@ukeyfe/hd-web-sdk';
@@ -68,7 +68,7 @@ new EmulatorTransport(url?: string)
 
 ### Methods
 
-All methods implement the standard OneKey Transport interface:
+All methods implement the standard ukey Transport interface:
 
 - `init(logger)`: Initialize transport
 - `configure(signedData)`: Configure protobuf messages
@@ -80,7 +80,7 @@ All methods implement the standard OneKey Transport interface:
 
 ## Emulator Server
 
-Make sure your OneKey emulator server is running on the configured URL (default: `http://localhost:21333`) before using this transport.
+Make sure your ukey emulator server is running on the configured URL (default: `http://localhost:21333`) before using this transport.
 
 ## Development
 

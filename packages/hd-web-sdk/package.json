@@ -5,7 +5,7 @@
   "homepage": "https://github.com/bestyourwallet/hardware-js-sdk#readme",
   "license": "ISC",
   "type": "commonjs",
-  "main": "build/onekey-js-sdk.js",
+  "main": "build/ukey-js-sdk.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
     "access": "public"

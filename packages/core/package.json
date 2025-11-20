@@ -1,6 +1,6 @@
 {
   "name": "@ukeyfe/hd-core",
-  "version": "1.1.14",
+  "version": "1.1.15",
   "description": "Core processes and APIs for communicating with UKey hardware devices.",
   "author": "UKey",
   "homepage": "https://github.com/bestyourwallet/hardware-js-sdk#readme",
