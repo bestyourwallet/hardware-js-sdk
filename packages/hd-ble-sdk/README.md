@@ -30,7 +30,7 @@ function init() {
 
 ## Docs
 
-Documentation is available [hardware-js-sdk](https://developer.onekey.so/connect-to-hardware/hardware-sdk/start)
+Documentation is available [hardware-js-sdk](https://developer.ukey.so/connect-to-hardware/hardware-sdk/start)
 
 ## Examples
 // TODO: add example url
