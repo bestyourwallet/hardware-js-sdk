@@ -1,11 +1,11 @@
-# ukey Hardware Emulator Transport
+# UKey Hardware Emulator Transport
 
-This package provides HTTP-based transport for connecting to ukey hardware emulator.
+This package provides HTTP-based transport for connecting to UKey hardware emulator.
 
 ## Features
 
 - HTTP-based communication with emulator server
-- Compatible with ukey Connect SDK
+- Compatible with UKey Connect SDK
 - Support for switchTransport functionality
 - Default emulator server URL: `http://localhost:21333`
 
@@ -34,7 +34,7 @@ await transport.init(logger);
 await transport.configure(signedData);
 ```
 
-### With ukey Connect SDK
+### With UKey Connect SDK
 
 ```javascript
 import HardwareSDK from '@ukeyfe/hd-web-sdk';
@@ -68,7 +68,7 @@ new EmulatorTransport(url?: string)
 
 ### Methods
 
-All methods implement the standard ukey Transport interface:
+All methods implement the standard UKey Transport interface:
 
 - `init(logger)`: Initialize transport
 - `configure(signedData)`: Configure protobuf messages
@@ -80,7 +80,7 @@ All methods implement the standard ukey Transport interface:
 
 ## Emulator Server
 
-Make sure your ukey emulator server is running on the configured URL (default: `http://localhost:21333`) before using this transport.
+Make sure your UKey emulator server is running on the configured URL (default: `http://localhost:21333`) before using this transport.
 
 ## Development
 

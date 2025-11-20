@@ -18,7 +18,7 @@ Hardware-js-sdk is designed to allow third-party developers to quickly access th
 
 ## Documentation
 
-See the full documentation on [developer.ukey.so](https://developer.ukey.so/connect-to-hardware/hardware-sdk).
+See the full documentation on [developer.onekey.so](https://developer.onekey.so/connect-to-hardware/hardware-sdk).
 
 ## hardware-js-sdk development
 
@@ -54,7 +54,7 @@ Run a dev build:
 - `yarn bootstrap && yarn build`
 - `yarn example` select web in menu.
 
-### Development ukey-app monorepo
+### Development onekey-app monorepo
 
 - Build all packages
 - `yarn bootstrap && yarn build`

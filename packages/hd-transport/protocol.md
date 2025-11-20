@@ -1,4 +1,4 @@
-# ukey Protocol
+# OneKey Protocol
 
 ## version 1
 
@@ -9,7 +9,7 @@ First packet has the following structure:
 | offset | length | type        | contents                                                                              |
 |--------|--------|-------------|---------------------------------------------------------------------------------------|
 |      0 |      3 | char[3]     | '?##' magic constant                                                                  |
-|      3 |      2 | BE uint16_t | numerical [message type](https://github.com/ukeyHQ/firmware/blob/touch/common/protob/messages.proto)                                          |
+|      3 |      2 | BE uint16_t | numerical [message type](https://github.com/OneKeyHQ/firmware/blob/touch/common/protob/messages.proto)                                          |
 |      5 |      4 | BE uint32_t | message size                                                                          |
 |      9 |     55 | uint8_t[55] | first 55 bytes of message encoded in Protocol Buffers (padded with zeroes if shorter) |
 

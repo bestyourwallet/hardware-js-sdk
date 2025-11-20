@@ -1,8 +1,8 @@
 {
   "name": "@ukeyfe/hd-web-sdk",
-  "version": "1.1.15",
+  "version": "1.1.17",
   "author": "UKey",
-  "homepage": "https://github.com/bestyourwallet/hardware-js-sdk#readme",
+  "homepage": "https://github.com/UKeyHQ/hardware-js-sdk#readme",
   "license": "ISC",
   "type": "commonjs",
   "main": "build/onekey-js-sdk.js",
@@ -21,10 +21,10 @@
   },
   "dependencies": {
     "@onekeyfe/cross-inpage-provider-core": "^0.0.17",
-    "@ukeyfe/hd-core": "1.1.15",
-    "@ukeyfe/hd-shared": "1.1.14",
-    "@ukeyfe/hd-transport-http": "1.1.14",
-    "@ukeyfe/hd-transport-web-device": "1.1.14"
+    "@ukeyfe/hd-core": "1.1.17",
+    "@ukeyfe/hd-shared": "1.1.17",
+    "@ukeyfe/hd-transport-http": "1.1.17",
+    "@ukeyfe/hd-transport-web-device": "1.1.17"
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.17.12",

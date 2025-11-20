@@ -4,8 +4,8 @@
 
 ## What is the purpose
 
-- translate JSON payloads to binary messages using protobuf definitions comprehensible to ukey devices
-- chunking and reading chunked messages according to the [ukey protocol](./protocol.md)
+- translate JSON payloads to binary messages using protobuf definitions comprehensible to UKey devices
+- chunking and reading chunked messages according to the [UKey protocol](./protocol.md)
 - exposing single API for various transport methods:
   - Http Transport
   - React Native Transport

@@ -31,7 +31,7 @@ SDK接口层 (@onekeyfe/core)
 - **`@ukeyfe/hd-ble-sdk`** - 移动端BLE SDK
 
 ### 示例应用
-- **`@ukeyfe/connect-examples`** - 集成示例
+- **`@onekeyfe/connect-examples`** - 集成示例
   - `expo-example` - Web集成示例
   - `expo-playground` - 开发测试平台
 
@@ -123,5 +123,5 @@ yarn install
 yarn build
 
 # 启动示例
-yarn workspace @ukeyfe/connect-examples start
+yarn workspace @onekeyfe/connect-examples start
 ```

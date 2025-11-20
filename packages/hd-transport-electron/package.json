@@ -1,8 +1,8 @@
 {
   "name": "@ukeyfe/hd-transport-electron",
-  "version": "1.1.14",
+  "version": "1.1.17",
   "author": "UKey",
-  "homepage": "https://github.com/bestyourwallet/hardware-js-sdk#readme",
+  "homepage": "https://github.com/UKeyHQ/hardware-js-sdk#readme",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bestyourwallet/hardware-js-sdk.git"
+    "url": "git+https://github.com/bestyourwallet/hardware-js-sdk"
   },
   "scripts": {
     "dev": "rimraf dist && rollup -c ../../build/rollup.config.js -w",
@@ -25,9 +25,9 @@
     "electron-log": ">=4.0.0"
   },
   "dependencies": {
-    "@ukeyfe/hd-core": "1.1.15",
-    "@ukeyfe/hd-shared": "1.1.14",
-    "@ukeyfe/hd-transport": "1.1.14",
+    "@ukeyfe/hd-core": "1.1.17",
+    "@ukeyfe/hd-shared": "1.1.17",
+    "@ukeyfe/hd-transport": "1.1.17",
     "@stoprocent/noble": "2.3.4",
     "p-retry": "^4.6.2"
   },
