@@ -20,7 +20,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@ukeyfe/hd-core": "1.1.14",
+    "@ukeyfe/hd-core": "1.1.15",
     "@ukeyfe/hd-shared": "1.1.14",
     "@ukeyfe/hd-transport-emulator": "1.1.14",
     "@ukeyfe/hd-transport-http": "1.1.14",
