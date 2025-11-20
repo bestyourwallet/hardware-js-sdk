@@ -12,7 +12,7 @@ const dev = {
   watch: true,
   devtool: 'source-map',
   entry: {
-    'ukey-js-sdk': path.resolve(__dirname, '../src/index.ts'),
+    'onekey-js-sdk': path.resolve(__dirname, '../src/index.ts'),
   },
   output: config.output,
   resolve: config.resolve,

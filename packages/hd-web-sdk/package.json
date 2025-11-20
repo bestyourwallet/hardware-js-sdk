@@ -1,11 +1,11 @@
 {
   "name": "@ukeyfe/hd-web-sdk",
-  "version": "1.1.14",
+  "version": "1.1.15",
   "author": "UKey",
   "homepage": "https://github.com/bestyourwallet/hardware-js-sdk#readme",
   "license": "ISC",
   "type": "commonjs",
-  "main": "build/ukey-js-sdk.js",
+  "main": "build/onekey-js-sdk.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
     "access": "public"

@@ -5,7 +5,7 @@ export default {
     filename: '[name].js',
     path: path.resolve(__dirname, '../build'),
     publicPath: './',
-    library: 'ukey-js-sdk',
+    library: 'onekey-js-sdk',
     libraryTarget: 'umd',
     libraryExport: 'default',
   },

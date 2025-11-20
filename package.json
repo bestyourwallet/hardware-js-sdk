@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/bestyourwallet/hardware-js-sdk.git"
   },
-  "author": "OneKey",
+  "author": "UKey",
   "workspaces": {
     "packages": [
       "packages/*",

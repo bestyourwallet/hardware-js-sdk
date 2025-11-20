@@ -8,8 +8,8 @@ const prodConfig = {
   mode: 'production',
   devtool: 'hidden-source-map',
   entry: {
-    'ukey-js-sdk': path.resolve(__dirname, '../src/index.ts'),
-    'ukey-js-sdk.min': path.resolve(__dirname, '../src/index.ts'),
+    'onekey-js-sdk': path.resolve(__dirname, '../src/index.ts'),
+    'onekey-js-sdk.min': path.resolve(__dirname, '../src/index.ts'),
   },
   output: config.output,
 
@@ -54,7 +54,7 @@ const prodConfig = {
   optimization: {
     minimizer: [
       new TerserPlugin({
-        exclude: /ukey-js-sdk.js/,
+        exclude: /onekey-js-sdk.js/,
         extractComments: false,
         terserOptions: {
           format: {
