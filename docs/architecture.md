@@ -7,13 +7,13 @@ OneKey Hardware SDK 采用三层架构设计：
 ```
 应用层 (DApps)
     ↓
-SDK接口层 (@onekeyfe/core)
+SDK接口层 (@ukeyfe/core)
     ↓
 传输抽象层 (@ukeyfe/hd-transport)
     ↓
 平台适配层 (WebUSB/BLE/HTTP)
     ↓
-硬件设备层 (OneKey设备)
+硬件设备层 (UKey设备)
 ```
 
 ## 🏗️ 核心包结构
@@ -31,7 +31,7 @@ SDK接口层 (@onekeyfe/core)
 - **`@ukeyfe/hd-ble-sdk`** - 移动端BLE SDK
 
 ### 示例应用
-- **`@onekeyfe/connect-examples`** - 集成示例
+- **`@ukeyfe/connect-examples`** - 集成示例
   - `expo-example` - Web集成示例
   - `expo-playground` - 开发测试平台
 
@@ -123,5 +123,5 @@ yarn install
 yarn build
 
 # 启动示例
-yarn workspace @onekeyfe/connect-examples start
+yarn workspace @ukeyfe/connect-examples start
 ```

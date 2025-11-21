@@ -87,7 +87,7 @@ const result = await sdk.evmGetAddress({
 
 ```bash
 # Clone and setup
-git clone https://github.com/bestyourwallet/hardware-js-sdk
+git clone https://github.com/OneKeyHQ/hardware-js-sdk.git
 cd hardware-js-sdk/packages/connect-examples/expo-playground
 yarn
 yarn start
