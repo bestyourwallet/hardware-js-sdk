@@ -6,7 +6,7 @@ jobs:
   build-and-upload:
     runs-on: ubuntu-latest
     env:
-      TEST_ENDPOINT: hardware-example.onekeytest.com
+      TEST_ENDPOINT: hardware-example.ukeytest.com
       PROJECT_PATH: packages/connect-examples/expo-example/android
     steps:
       - uses: actions/checkout@v4
